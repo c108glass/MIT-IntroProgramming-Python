@@ -1,13 +1,9 @@
-Python 2.5.4 (r254:67916, Dec 23 2008, 15:10:54) [MSC v.1310 32 bit (Intel)] on win32
-Type "copyright", "credits" or "license()" for more information.
+##Lecture 1
+##Intro to 6.00, Objects and Expressions
+##Intro to Computer Science And Programming - MIT
+##https://ocw.mit.edu
 
-    ****************************************************************
-    Personal firewall software may warn about the connection IDLE
-    makes to its subprocess using this computer's internal loopback
-    interface.  This connection is not visible on any external
-    interface and no data is sent to or received from the Internet.
-    ****************************************************************
-    
+Python 2.5.4 
 IDLE 1.2.4      
 >>> 3
 3
