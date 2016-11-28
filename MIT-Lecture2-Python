@@ -27,15 +27,15 @@ if x%2 == 0:
     print 'The Integer is Even'
 else:
     print 'The Integer is Odd'
-    if x%3 != 0: ##This indent nests the 'if' condition within the 'else' condition
+    if x%3 != 0:
         print 'and not divisible by 3'
 
 ##Iteration. Find the cube root of a perfect cube.
 ##The 'while' loop steps through integers one at a time starting with 0,
-##until it equals or exceeds the absolute value of x.
-##Then ans is checked to see if it is a perfect cube of x.
-##The absolute value of x is needed to prevent an endless while loop when a negative x is used.
-##Finally, if a negative x was used, then ans will also need to be converted to negative. (e.g. perfect cube of -27 is -3) 
+##until it equals or exceeds the absolute value of 'x'.
+##Then 'ans' is checked to see if it is a perfect cube of 'x'.
+##The absolute value of 'x' is needed to prevent an endless while loop when a negative 'x' is used.
+##Finally, if a negative 'x' was used, then 'ans' will also need to be converted to negative. (e.g. perfect cube of -27 is -3) 
 x = int(raw_input('Enter an integer: '))
 ans = 0
 while ans*ans*ans < abs(x):
