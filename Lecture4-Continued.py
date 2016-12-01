@@ -12,7 +12,7 @@ def withinEpsilon(x, y, epsilon):
         returns True if x is within epsilon of y"""
     return abs(x - y) <= epsilon
 
-Can print the return value of the function or store it in a variable.
+##Can print the return value of the function or store it in a variable.
 print withinEpsilon(2,3,1)
 val = withinEpsilon(2,3,0.5)
 print val
