@@ -96,7 +96,7 @@ print EtoF.keys()
 del EtoF[1]
 print EtoF
 
-##Basic translation
+##Basic translation with a dictionary.
 def translateWord(word, dictionary): ##looks for a key in the dictionary. Returns the key if found. 
     if word in dictionary:
         return dictionary[word]
@@ -110,9 +110,9 @@ def translate(sentence):
         if c != ' ':
             word = word + c ##find strings of characters between spaces and assemble them into words
         else:
-            translation = translation + ' ' + translateWord(word, EtoF)
+            translation = translation + ' ' + translateWord(word, EtoF) ##once a space is reached, translate word, then add to translation.
             word = ''
-    return translation[1:] + ' ' + translateWord(word, EtoF)
+    return translation[1:] + ' ' + translateWord(word, EtoF) ##assumes last word has no space after it.
 
 print 'John eats bread =', translate('John eats bread')
 print 'Steve drinks wine =', translate('Steve drinks wine')
