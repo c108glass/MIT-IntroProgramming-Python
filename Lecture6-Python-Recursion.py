@@ -94,3 +94,4 @@ def testFib(n):
 print 'Test 1 month: \n', testFib(1)
 print 'Test 5 months: \n', testFib(5)
 print 'Test 8 months: \n', testFib(8)
+print 'Test 12 months: \n', testFib(12)
